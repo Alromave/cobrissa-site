@@ -1,0 +1,42 @@
+
+header{
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: rgb(55, 0, 255);
+    color: rgb(253, 255, 240);
+    height: 100px;
+    align-items: center;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+
+
+}
+main{
+    display: flex;
+    
+    background-color: white;
+    color: blue;
+    align-content: center;
+}
+p{
+    font-size: larger;
+}
+.presentation{
+    grid_column: 1/2 span;
+}
+footer{
+    display: flex;
+    background-color: lightseagreen;
+    padding: 25 px 50 px;
+    color: azure;
+    justify-content: space-around;
+    align-items: center;
+    
+}
