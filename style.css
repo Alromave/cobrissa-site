@@ -42,5 +42,11 @@ footer{
 }
 .services{
     display: flex;
-    
+    background-color: white;
+    color: blue;
+    align-content: center;
+    }
+.productos{
+    display: flex;
+
 }
