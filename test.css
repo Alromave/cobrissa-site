@@ -1,3 +1,6 @@
+. logo{
+  scale: 0.8;
+}
 header{
     display: grid;
     grid-template-columns: 150px auto;
@@ -9,21 +12,6 @@ header{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
-nav{
-    display: flex;
-    justify-content: space-around;
-    color: aliceblue;
-    font-family: 'Courier New', Courier, monospace;
-
-
-}
-main{
-    display: flex;
-    flex-direction: row;
-    background-color: white;
-    color: rgb(76, 0, 255);
-    align-content: center;
-}
 footer{
     display: flex;
     background-color: lightseagreen;
@@ -33,32 +21,102 @@ footer{
     position: absolute;
     bottom: 0;
 }
-.sidenav a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 15px;
-    color: #4d19ad;
-    display: block;
+/* Config page 2*/
+#page2{
+  background-color: rgb(255, 0, 200);
+}
+
+h2{
+  font-size: large;
+}
+#page2{
+  display: grid;
+  grid-template-columns: repeat(3 1fr);
+  grid-template-rows: repeat(5 1fr);
+}
+#professionalism{
+  display: grid;
+  grid-column: 1;
+  grid-row: 1;
+  background-color: rgb(157, 255, 0);
+  font-size: large;
   }
-  
-  /* When you mouse over the navigation links, change their color */
-  .sidenav a:hover {
-    color: #f1f1f1;
-  }
-  
-  /* Style page content */
-  .main {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    margin-left: 160px; /* Same as the width of the sidebar */
-    padding: 0px 10px;
-  }
-  #Cobrissa{
+#image2{
+  display: grid;
+  grid-column: 2;
+  grid-row: 2/5;
+
+}
+#experience{
+  display: grid;
+  grid-column: 3;
+  grid-row: 1;
+  color: black;
+  background-color: #04AA6D;
+  font-weight: bold;
+}
+
+/* Config page 3*/
+#page3{
+  display: grid;
+  grid-template-columns:repeat(5, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  padding: 10;
+  margin: auto;
+
+
+}
+#services{
+  display: flex;
+  align-items: center;
+  grid-column: 1/3;
+  grid-row: 1/2;
+
+}
+.services{
+  grid-column: 1/3;
+  grid-row: 3/4;
+  display: flex;
+  align-items: center;
     
-  }
   
-  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
-  @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-  } 
+}
+.image3{
+  grid-column: 4/5;
+  grid-row: 1/2;
+  
+
+}
+.social{
+  scale: 0.5;
+}
+}
+ /* How to create Next and Previous Buttons*/
+ a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.previous {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.next {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.round {
+  border-radius: 50%;
+}
+.values{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}

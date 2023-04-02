@@ -6,7 +6,7 @@ header{
     color: rgb(253, 255, 240);
     height: 100px;
     align-items: center;
-    font-size: medium;
+    font-size: larger;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
@@ -20,7 +20,7 @@ body{
 nav{
     display: flex;
     justify-content: space-around;
-    color: aliceblue;
+    color: rgb(47, 55, 62);
     font-family: 'Courier New', Courier, monospace;
 
 
