@@ -81,6 +81,7 @@ a {
     grid-area: 2/3/2/4;
     background-color: white;
     align-content: space-around;
+    
   }
   #contain>.box3{
     grid-area: 2/5/2/6;
@@ -116,6 +117,7 @@ a {
   #contain2{
     grid-area: 2/1/2/6;
     display: grid;
+    padding: auto;  
   }
   #contain2>.box4{
     grid-area: 2/1/2/2;
@@ -123,6 +125,7 @@ a {
     align-content: space-around;
     font-weight: bold;
     justify-content: center;
+    padding: auto;
   }
   #contain2>.box5{
     grid-area: 2/3/2/3;
@@ -151,6 +154,7 @@ a {
     align-items: center;
     display: grid;
     margin-right: 5px;
+    padding: auto;
     
   }
 #contain3>.box8{
