@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato");
+/* config home page*/
+body{
+    background-color: whitesmoke;
+    display: grid;
+    position: absolute;
+    margin: 5px;
+    width: 100%;
+    height: 100%;
+    
+    grid-template-rows:  20% 60% 20%;
+    grid-template-columns: 15% 15% 25% 25% 20%;
+
+  
+
+  
+
+    }
+    #contain{
+      grid-area: 2/1/2/6;
+      display: grid;
+    }
+ 
+
+header{
+    background-color: aqua;
+    display: grid;
+    grid-area: 1/1/1/6;
+}
+header>#logo {
+    grid-area: 1/1/1/1;    
+  }
+header>.nave{
+    grid-area: 1/2/1/4;
+    justify-content: space-between;
+    
+}
+header>.navigation{
+    grid-area: 1/5/1/5;
+    
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+  }
+  
+  a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .previous {
+    background-color: #f1f1f1;
+    color: black;
+  }
+  
+  .next {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .round {
+    border-radius: 50%;
+  }
+  .values{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  }
+  
+  
+  #contain>.box1{
+    grid-area: 2/1/2/2;
+    background-color: white;
+    justify-content: stretch;
+    
+    
+    font-weight: bold;
+  }
+  #contain>.box2{
+    grid-area: 2/3/2/4;
+    background-color: white;
+    align-content: space-around;
+  }
+  #contain>.box3{
+    grid-area: 2/5/2/6;
+    background-color:white;
+  }
+  footer{
+    background-color: #8ca0ff;
+    display: grid;
+    grid-area: 3/1/3/6;
+  }
+  footer>.address{
+    grid-area: 3/1/3/1;
+
+  }
+  footer>.social{
+    grid-area: 3/2/3/2;
+
+  }
+  footer>.email{
+    grid-area: 3/3/3/3;
+
+  }
+  footer>.rights{
+    grid-area: 3/4/3/4;
+
+  }
+  footer>.site{
+    grid-area: 3/5/3/5;
+    align-items: end;
+
+  }
+  /*config page2*/
+  #contain2{
+    grid-area: 2/1/2/6;
+    display: grid;
+  }
+  #contain2>.box4{
+    grid-area: 2/1/2/2;
+    background-color: white;
+    align-content: space-around;
+    font-weight: bold;
+    justify-content: center;
+  }
+  #contain2>.box5{
+    grid-area: 2/3/2/3;
+    background-color: white;
+    align-content: space-around;
+  }
+  #contain2>.box6{
+    grid-area: 2/4/2/6;
+    background-color:white;
+    align-content: stretch;
+    font-weight: bold;
+    justify-content: center;
+  }
+  /*config page3*/
+  
+
+#contain3{
+    grid-area: 2/1/3/6;
+    display: grid;
+    background-color: #04AA6D;
+  }
+#contain3>.box7{
+    grid-area: 2/1/2/2;
+    background-color: white;
+    justify-content: stretch;
+    align-items: center;
+    display: grid;
+    margin-right: 5px;
+    
+  }
+#contain3>.box8{
+    grid-area: 2/3/2/4;
+    background-color: white;
+    display: block;
+    
+    
+  }
+#contain3>.box9{
+    grid-area: 2/5/2/6;
+    background-color:white;
+    
+    font-weight: bold;
+    justify-content: center;
+  }

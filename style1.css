@@ -1,0 +1,122 @@
+
+header{
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: lightseagreen;
+    color: rgb(253, 255, 240);
+    height: 100px;
+    align-items: center;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.content{
+    display: flex;
+    flex-direction: row;
+}
+body{
+    margin: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    color: rgb(47, 55, 62);
+    font-family: 'Courier New', Courier, monospace;
+
+
+}
+main{
+    display: flex;
+    flex-direction: row;
+    
+    background-color: white;
+    color: rgb(76, 0, 255);
+    align-content: center;
+}
+p{
+    font-size: larger;
+}
+
+footer{
+    display: flex;
+    background-color: lightseagreen;
+    color: azure;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+}
+.services{
+    display: flex;
+    background-color: white;
+    color: blue;
+    align-content: center;
+    }
+.productos{
+    display: flex;
+
+}
+/*Create a Fixed Sidebar*/
+ /* The sidebar menu */
+
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #4d19ad;
+    display: block;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Style page content */
+  .main {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  } 
+
+  /* How to create Next and Previous Buttons*/
+  a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+  }
+  
+  a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .previous {
+    background-color: #f1f1f1;
+    color: black;
+  }
+  
+  .next {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .round {
+    border-radius: 50%;
+  }
+  .values{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  }
+/*.myservice{
+    display: flex;
+    flex-direction: row;
+
+
+}

@@ -1,0 +1,37 @@
+#home{
+    background-color: aqua;
+    display: grid;
+    margin-top: 5px;
+    grid-template-columns:40% 40% 20%;
+    grid-template-rows: 20% 60% 20%;
+    grid-template-areas:
+      "a a a "
+      "b b b"
+      "d d d";
+}
+header{
+    background-color: blue;
+    align-content: center;
+    grid-area: a;
+}
+#caja{
+    background-color: chartreuse;
+    grid-area: b;
+    align-content: center;
+}
+.meno{
+    background-color: coral;
+    grid-area: c;
+}
+footer{
+    background-color: blueviolet;
+    grid-area: d;
+    display: flex;
+}
+/*.logoface{
+    background-color: brown;
+    grid-area: e;
+    display: grid;
+    align-items: self-end;
+    
+}

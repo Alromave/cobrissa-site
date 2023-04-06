@@ -1,122 +1,96 @@
-
-header{
+/* config Home Page */
+@import url("https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato");
+@media (min-width: 900px) {
+    #homepage {
     display: grid;
-    grid-template-columns: 150px auto;
-    background-color: lightseagreen;
-    color: rgb(253, 255, 240);
-    height: 100px;
-    align-items: center;
-    font-size: larger;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
-}
-.content{
-    display: flex;
-    flex-direction: row;
-}
-body{
-    margin: 0;
-}
-nav{
-    display: flex;
-    justify-content: space-around;
-    color: rgb(47, 55, 62);
-    font-family: 'Courier New', Courier, monospace;
-
-
-}
-main{
-    display: flex;
-    flex-direction: row;
+    background-color: whitesmoke;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    gap: 5px;
     
-    background-color: white;
-    color: rgb(76, 0, 255);
-    align-content: center;
+    
+    grid-template:
+    "a b b b b b c" auto
+    "d e e f f g g" auto
+    "d e e f f g g" auto
+    "d e e f f g g" auto
+    "h h i i j k l" auto /
+    auto auto auto auto auto;
 }
-p{
-    font-size: larger;
 }
+header{
+background-color:aqua;
+height: 100px;
+display: flex;
 
-footer{
-    display: flex;
-    background-color: lightseagreen;
-    color: azure;
-    justify-content: space-around;
-    align-items: center;
-    position: absolute;
-    bottom: 0;
-}
-.services{
-    display: flex;
-    background-color: white;
-    color: blue;
-    align-content: center;
-    }
-.productos{
-    display: flex;
 
 }
-/*Create a Fixed Sidebar*/
- /* The sidebar menu */
-
-  /* The navigation menu links */
-  .sidenav a {
+#logo{
+    grid-area: a;
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+}
+#navi{
+    grid-area: b;
+    background-color: aqua;
+    align-content: space-between;
+    
+}
+#next{
+    grid-area: c;
+    background-color: blueviolet;
+}
+#contain1{
+    background-color: chocolate;
+    grid-column: 1/6;
+    grid-row: 1;
+}
+.sidenav{
+    grid-area: d;
+    background-color: aqua;
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 15px;
     color: #4d19ad;
     display: block;
-  }
-  
-  /* When you mouse over the navigation links, change their color */
-  .sidenav a:hover {
-    color: #f1f1f1;
-  }
-  
-  /* Style page content */
-  .main {
-    margin-left: 160px; /* Same as the width of the sidebar */
-    padding: 0px 10px;
-  }
-  
-  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
-  @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-  } 
+    align-items: stretch;
+      }
 
-  /* How to create Next and Previous Buttons*/
-  a {
-    text-decoration: none;
-    display: inline-block;
-    padding: 8px 16px;
-  }
-  
-  a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-  .previous {
-    background-color: #f1f1f1;
-    color: black;
-  }
-  
-  .next {
-    background-color: #04AA6D;
-    color: white;
-  }
-  
-  .round {
-    border-radius: 50%;
-  }
-  .values{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
-  }
-/*.myservice{
+.box1{
+    grid-area: e;
+    background-color: brown;
     display: flex;
-    flex-direction: row;
+}
+.box2{
+    grid-area: f;
+    background-color: cadetblue;
+    display: flex;
+}
+.box3{
+    grid-area: g;
 
+    background-color: chartreuse;
+}
+footer{
+    background-color: aqua;
+    display: grid;
+}
+.address{
+    grid-area: h;
+    height: 150px;
+    width: 150px;
 
+}
+.social{
+    grid-area: i;
+    display: flex;
+}
+.email{
+    grid-area: j;
+}
+.rights{
+    grid-area: k;
+}
+.site{
+    grid-area: l;
 }

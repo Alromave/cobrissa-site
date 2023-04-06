@@ -1,0 +1,68 @@
+body{
+    background-color: aliceblue;
+    grid-template-columns:20% 60% 20%;
+    grid-template-rows: 100%;
+    /*grid-template-areas:
+     "a b"*/
+;
+}
+header>.logo{
+    display: grid;
+    background-color: #04AA6D;
+    grid-column-start: 1;
+    
+    
+    
+    margin-left: 5px;
+    margin-right: 5px;
+    }
+header>.navi{
+    display: flex;
+    background-color: brown;
+    grid-column-start: 2;
+    
+}
+/*#logo{
+    display: grid;
+    justify-content: start;
+    grid-area: a;*/
+
+
+/*#navi{
+    background-color: rgb(42, 165, 140);
+    
+    grid-area: b;
+
+}*/
+header>.navigation{
+    grid-column-start: 3;
+}
+ /* How to create Next and Previous Buttons*/
+ a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+  }
+  
+  a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .previous {
+    background-color: #f1f1f1;
+    color: black;
+  }
+  
+  .next {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .round {
+    border-radius: 50%;
+  }
+  .values{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  }
